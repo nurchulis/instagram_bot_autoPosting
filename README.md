@@ -23,7 +23,7 @@ InstaMultiPost is a Program with php and modifed instabot can posting auto rotat
 
 ![N|Solid](https://raw.githubusercontent.com/nurchulis/instagram_bot_autoPosting/master/2.png)
 
-![N|Solid](https://raw.githubusercontent.com/nurchulis/instagram_bot_autoPosting/master/3.png)
+
 
 ![N|Solid](https://raw.githubusercontent.com/nurchulis/instagram_bot_autoPosting/master/4.png)
 ![N|Solid](https://raw.githubusercontent.com/nurchulis/instagram_bot_autoPosting/master/5.png)
