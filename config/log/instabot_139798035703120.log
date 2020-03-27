@@ -1,0 +1,23 @@
+2020-03-18 20:49:58,660 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-18 20:49:58,661 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-18 20:49:58,662 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-18 20:49:58,662 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-18 20:49:58,662 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=268a5428-7d0f-4843-a15d-ae9fbc5e3936
+- device_id=android-19c11c9b12e66074
+2020-03-18 20:49:58,663 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-18 20:50:04,352 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-18 20:50:05,266 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-18 20:50:05,269 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchuliss'!
+2020-03-18 20:50:05,269 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-18 20:50:05,270 - instabot version: 0.115.0 (bot_like) - INFO - Liking user_menabungtanah's feed:
+2020-03-18 20:50:05,832 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: users/menabungtanah/usernameinfo/ returned response: <Response [200]>
+2020-03-18 20:50:07,278 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: feed/user/31601816761/?max_id=&min_timestamp=None&rank_token=31810048273_423e6931-be2b-4a9b-9c1b-4d8fe19b14e6&ranked_content=true returned response: <Response [200]>
+2020-03-18 20:50:07,279 - instabot version: 0.115.0 (bot_filter) - INFO - Received 1 medias.
+2020-03-18 20:50:07,279 - instabot version: 0.115.0 (bot_filter) - INFO - After filtration 0 medias left.
+2020-03-18 20:50:07,279 - instabot version: 0.115.0 (bot_like) - INFO - None medias received: account is closed or medias have been filtered.
+2020-03-18 20:50:07,280 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-18 20:50:07,281 - instabot version: 0.115.0 (bot) - INFO - Total requests: 100

@@ -1,0 +1,28 @@
+2020-03-26 09:11:25,050 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-26 09:11:25,052 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-26 09:11:25,053 - instabot version: 0.115.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-26 09:11:26,862 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-26 09:11:27,673 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-26 09:11:29,279 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-26 09:11:29,591 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-26 09:11:31,780 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-26 09:11:31,781 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "The username you entered doesn't appear to belong to an account. Please check your username and try again.", "invalid_credentials": true, "error_title": "Incorrect Username", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "invalid_user"}
+2020-03-26 09:11:31,781 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-26 09:11:31,783 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: The username you entered doesn't appear to belong to an account. Please check your username and try again.
+2020-03-26 09:11:31,785 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nur_chuliss'!
+2020-03-26 09:11:31,786 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-03-26 09:11:31,789 - instabot version: 0.115.0 (api_login) - ERROR - Exception raised: 'ds_user_id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api_login.py", line 144, in login_flow
+    check_flow.append(self.sync_device_features())
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api.py", line 382, in sync_device_features
+    data["_uid"] = self.user_id
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api.py", line 636, in user_id
+    return self.cookie_dict["ds_user_id"]
+KeyError: 'ds_user_id'
+
+2020-03-26 09:11:31,789 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nur_chuliss.checkpoint
+2020-03-26 09:11:59,726 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nur_chuliss.checkpoint
+2020-03-26 09:11:59,728 - instabot version: 0.115.0 (bot) - INFO - Total requests: 5
+2020-03-26 09:11:59,730 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-26 09:11:59,732 - instabot version: 0.115.0 (bot) - INFO - Total requests: 162

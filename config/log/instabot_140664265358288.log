@@ -1,0 +1,44 @@
+2020-03-26 09:05:56,497 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-26 09:05:56,497 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-26 09:05:56,500 - instabot version: 0.115.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-26 09:05:57,495 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-26 09:05:59,070 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-26 09:05:59,912 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-26 09:06:00,308 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-26 09:06:02,320 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-26 09:06:02,321 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "The password you entered is incorrect. Please try again.", "invalid_credentials": true, "error_title": "Incorrect password for nurchulis", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "bad_password"}
+2020-03-26 09:06:02,321 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-26 09:06:02,321 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2020-03-26 09:06:02,321 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchulis'!
+2020-03-26 09:06:02,322 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-03-26 09:06:02,325 - instabot version: 0.115.0 (api_login) - ERROR - Exception raised: 'ds_user_id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api_login.py", line 144, in login_flow
+    check_flow.append(self.sync_device_features())
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api.py", line 382, in sync_device_features
+    data["_uid"] = self.user_id
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api.py", line 636, in user_id
+    return self.cookie_dict["ds_user_id"]
+KeyError: 'ds_user_id'
+
+2020-03-26 09:06:02,326 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchulis.checkpoint
+2020-03-26 09:08:12,848 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-26 09:08:12,849 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-26 09:08:12,851 - instabot version: 0.115.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-26 09:08:24,800 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-26 09:08:49,028 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-26 09:08:49,029 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-26 09:08:49,030 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-26 09:08:49,031 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-26 09:08:49,032 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=1e77beb9-13b1-4e6b-a0fb-c8412f093735
+- device_id=android-19c11c9b12e66074
+2020-03-26 09:08:49,033 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-26 09:08:51,569 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-26 09:08:58,453 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-26 09:08:59,610 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-26 09:09:07,414 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchulis.checkpoint
+2020-03-26 09:09:07,417 - instabot version: 0.115.0 (bot) - INFO - Total requests: 5

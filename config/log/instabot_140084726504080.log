@@ -1,0 +1,19 @@
+2020-03-27 23:56:01,890 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-27 23:56:01,890 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-27 23:56:01,891 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 23:56:01,892 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 23:56:01,892 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=8ca04070-eaac-42ef-98bc-b9722fd1a387
+- device_id=android-19c11c9b12e66074
+2020-03-27 23:56:01,892 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 23:56:05,280 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 23:56:05,960 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 23:56:05,965 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchuliss'!
+2020-03-27 23:56:05,965 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:56:29,440 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-03-27 23:56:30,003 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-03-27 23:56:43,264 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:56:43,265 - instabot version: 0.115.0 (bot) - INFO - Total requests: 170

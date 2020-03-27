@@ -1,0 +1,52 @@
+2020-03-25 18:11:01,867 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-25 18:11:01,868 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-25 18:11:01,870 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-25 18:11:01,871 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-25 18:11:01,872 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/menabungtanah_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=a30092fa-e99d-46c6-b2c6-a80dfd9fe9e9
+- uuid=8aacbd94-8261-42c3-ae0d-d5476e870db9
+- client_session_id=808509be-dc10-40a5-acb3-c98b930b2442
+- device_id=android-d13a49bfddbe7ce7
+2020-03-25 18:11:01,872 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-25 18:11:02,246 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [400]>
+2020-03-25 18:11:02,246 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/feed/timeline/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}
+2020-03-25 18:11:02,246 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-25 18:11:02,247 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: challenge_required
+2020-03-25 18:11:02,247 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: {}
+2020-03-25 18:11:02,644 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [400]>
+2020-03-25 18:11:02,645 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "challenge_required", "challenge": {"url": "https://i.instagram.com/challenge/?next=/api/v1/feed/reels_tray/", "api_path": "/challenge/", "hide_webview_header": true, "lock": true, "logout": false, "native_flow": true}, "status": "fail"}
+2020-03-25 18:11:02,645 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-25 18:11:02,645 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: challenge_required
+2020-03-25 18:11:02,645 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: {}
+2020-03-25 18:11:02,646 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'menabungtanah'!
+2020-03-25 18:11:02,647 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/menabungtanah.checkpoint
+2020-03-25 18:11:11,477 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-25 18:11:11,478 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-25 18:11:11,480 - instabot version: 0.115.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-25 18:11:11,801 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-25 18:11:12,152 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-25 18:11:12,476 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-25 18:11:12,782 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-25 18:11:13,377 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-25 18:11:13,377 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "The username you entered doesn't appear to belong to an account. Please check your username and try again.", "invalid_credentials": true, "error_title": "Incorrect Username", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "invalid_user"}
+2020-03-25 18:11:13,377 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-25 18:11:13,378 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: The username you entered doesn't appear to belong to an account. Please check your username and try again.
+2020-03-25 18:11:13,378 - instabot version: 0.115.0 (api) - INFO - Error type: invalid_user
+2020-03-25 18:11:13,378 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'menabungtanahs'!
+2020-03-25 18:11:13,378 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: True
+2020-03-25 18:11:13,379 - instabot version: 0.115.0 (api_login) - ERROR - Exception raised: 'ds_user_id'
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api_login.py", line 144, in login_flow
+    check_flow.append(self.sync_device_features())
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api.py", line 383, in sync_device_features
+    data["_uid"] = self.user_id
+  File "/usr/local/lib/python2.7/dist-packages/instabot/api/api.py", line 633, in user_id
+    return self.cookie_dict["ds_user_id"]
+KeyError: 'ds_user_id'
+
+2020-03-25 18:11:13,380 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/menabungtanahs.checkpoint
+2020-03-25 18:11:34,189 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/menabungtanahs.checkpoint
+2020-03-25 18:11:34,190 - instabot version: 0.115.0 (bot) - INFO - Total requests: 5
+2020-03-25 18:11:34,194 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/menabungtanah.checkpoint
+2020-03-25 18:11:34,197 - instabot version: 0.115.0 (bot) - INFO - Total requests: 37

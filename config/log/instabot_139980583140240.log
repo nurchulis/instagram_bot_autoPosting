@@ -1,0 +1,41 @@
+2020-03-25 14:30:51,635 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-25 14:30:51,635 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-25 14:30:51,638 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-25 14:30:51,639 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-25 14:30:51,639 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=22c0ff73-5d71-4fc8-97c4-7d1766d1a394
+- device_id=android-19c11c9b12e66074
+2020-03-25 14:30:51,640 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-25 14:30:52,729 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-25 14:30:53,341 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-25 14:30:53,693 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-25 14:30:54,114 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-25 14:30:54,492 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-25 14:30:54,877 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-25 14:30:55,535 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-25 14:30:55,896 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-25 14:30:56,305 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-25 14:30:56,313 - instabot version: 0.115.0 (api) - INFO - Login flow failed, the cookie is broken. Relogin again.
+2020-03-25 14:30:56,313 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-25 14:30:56,314 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-25 14:30:56,314 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=dea59d17-9b29-42d3-a305-68e2a886e948
+- device_id=android-19c11c9b12e66074
+2020-03-25 14:30:56,315 - instabot version: 0.115.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2020-03-25 14:30:56,680 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2020-03-25 14:30:57,067 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2020-03-25 14:30:58,541 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2020-03-25 14:30:58,913 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2020-03-25 14:31:01,465 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2020-03-25 14:31:01,465 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "The password you entered is incorrect. Please try again.", "invalid_credentials": true, "error_title": "Incorrect password for nurchuliss", "buttons": [{"title": "Try Again", "action": "dismiss"}], "status": "fail", "error_type": "bad_password"}
+2020-03-25 14:31:01,465 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-25 14:31:01,466 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2020-03-25 14:31:01,466 - instabot version: 0.115.0 (api) - INFO - Error type: bad_password
+2020-03-25 14:31:01,467 - instabot version: 0.115.0 (api) - ERROR - Failed to login go to instagram and change your password
+2020-03-25 14:31:01,467 - instabot version: 0.115.0 (api) - INFO - Username or password is incorrect.

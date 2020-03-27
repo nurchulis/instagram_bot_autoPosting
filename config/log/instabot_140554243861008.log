@@ -1,0 +1,33 @@
+2020-03-25 14:34:45,809 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-25 14:34:45,810 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-25 14:34:45,812 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-25 14:34:45,813 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-25 14:34:45,813 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=dea59d17-9b29-42d3-a305-68e2a886e948
+- device_id=android-19c11c9b12e66074
+2020-03-25 14:34:45,813 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-25 14:34:47,648 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-25 14:34:47,997 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [429]>
+2020-03-25 14:34:47,997 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "prefetch disabled", "status": "fail"}
+2020-03-25 14:34:47,997 - instabot version: 0.115.0 (api) - ERROR - Request returns 429 error!
+2020-03-25 14:34:47,998 - instabot version: 0.115.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 5 minutes.
+2020-03-25 14:35:08,604 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-25 14:35:08,605 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-25 14:35:08,605 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-25 14:35:08,606 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-25 14:35:08,606 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=dea59d17-9b29-42d3-a305-68e2a886e948
+- device_id=android-19c11c9b12e66074
+2020-03-25 14:35:08,607 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-25 14:35:09,845 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-25 14:35:10,407 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-25 14:35:10,414 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchuliss'!
+2020-03-25 14:35:10,415 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-25 14:35:56,333 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-25 14:35:56,334 - instabot version: 0.115.0 (bot) - INFO - Total requests: 162

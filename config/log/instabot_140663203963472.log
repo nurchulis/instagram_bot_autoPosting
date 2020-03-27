@@ -1,0 +1,43 @@
+2020-03-26 10:06:31,907 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-26 10:06:31,908 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-26 10:06:31,909 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-26 10:06:31,911 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-26 10:06:31,911 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nur_chulis_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=2ab0891e-f163-433d-a907-e175545839f8
+- uuid=a6e4e6ae-39df-433d-b0be-0bcf6e688e32
+- client_session_id=fc8f0e2c-418e-4a4e-ab47-9a61b692a919
+- device_id=android-23949ed952248490
+2020-03-26 10:06:31,912 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-26 10:06:33,352 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-26 10:06:34,191 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-26 10:06:34,197 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nur_chulis'!
+2020-03-26 10:06:34,197 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nur_chulis.checkpoint
+2020-03-26 13:01:15,334 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-26 13:01:15,342 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-26 13:01:15,342 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-26 13:01:15,343 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-26 13:01:15,343 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nur_chulis_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=2ab0891e-f163-433d-a907-e175545839f8
+- uuid=a6e4e6ae-39df-433d-b0be-0bcf6e688e32
+- client_session_id=fc8f0e2c-418e-4a4e-ab47-9a61b692a919
+- device_id=android-23949ed952248490
+2020-03-26 13:01:15,344 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-26 13:01:18,201 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-26 13:01:19,845 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-26 13:01:20,297 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-26 13:01:21,254 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-26 13:01:22,226 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-26 13:01:22,685 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-26 13:01:23,974 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-26 13:01:24,473 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-26 13:01:26,588 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-26 13:01:26,598 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nur_chulis'!
+2020-03-26 13:01:26,599 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nur_chulis.checkpoint
+2020-03-26 13:05:09,719 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nur_chulis.checkpoint
+2020-03-26 13:05:09,720 - instabot version: 0.115.0 (bot) - INFO - Total requests: 39
+2020-03-26 13:05:09,723 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nur_chulis.checkpoint
+2020-03-26 13:05:09,724 - instabot version: 0.115.0 (bot) - INFO - Total requests: 39
+2020-03-26 13:05:09,726 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nur_chulis.checkpoint
+2020-03-26 13:05:09,728 - instabot version: 0.115.0 (bot) - INFO - Total requests: 39

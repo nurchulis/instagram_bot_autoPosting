@@ -1,0 +1,130 @@
+2020-03-27 23:49:01,830 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-27 23:49:01,830 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-27 23:49:01,831 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 23:49:01,832 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 23:49:01,832 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=64fee909-a068-461e-b241-fa7905926712
+- device_id=android-19c11c9b12e66074
+2020-03-27 23:49:01,832 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 23:49:03,223 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 23:49:04,182 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 23:49:04,707 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-27 23:49:05,243 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-27 23:49:05,821 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-27 23:49:06,344 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-27 23:49:07,320 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-27 23:49:07,877 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-27 23:49:09,661 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-27 23:49:09,671 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchuliss'!
+2020-03-27 23:49:09,672 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:49:32,729 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-03-27 23:49:33,295 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-03-27 23:50:01,351 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-27 23:50:01,352 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-27 23:50:01,353 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 23:50:01,354 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 23:50:01,356 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=8ca04070-eaac-42ef-98bc-b9722fd1a387
+- device_id=android-19c11c9b12e66074
+2020-03-27 23:50:01,356 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 23:50:03,237 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 23:50:03,984 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 23:50:03,986 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchuliss'!
+2020-03-27 23:50:03,986 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:50:26,752 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-03-27 23:50:27,292 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-03-27 23:51:01,338 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-27 23:51:01,340 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-27 23:51:01,343 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 23:51:01,344 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 23:51:01,344 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nur_chulis_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=2ab0891e-f163-433d-a907-e175545839f8
+- uuid=a6e4e6ae-39df-433d-b0be-0bcf6e688e32
+- client_session_id=f895ada1-424e-4fb7-af52-976679bcf2f9
+- device_id=android-23949ed952248490
+2020-03-27 23:51:01,346 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 23:51:03,100 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 23:51:04,686 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 23:51:05,281 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-27 23:51:05,835 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/ranked_recipients/ returned response: <Response [200]>
+2020-03-27 23:51:06,902 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: direct_v2/inbox/ returned response: <Response [200]>
+2020-03-27 23:51:07,402 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: direct_v2/get_presence/ returned response: <Response [200]>
+2020-03-27 23:51:08,528 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: news/inbox/?limited_activity=true&show_su=true returned response: <Response [200]>
+2020-03-27 23:51:09,105 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: users/profile_notice/ returned response: <Response [200]>
+2020-03-27 23:51:12,316 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: discover/explore/ returned response: <Response [200]>
+2020-03-27 23:51:12,327 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nur_chulis'!
+2020-03-27 23:51:12,328 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nur_chulis.checkpoint
+2020-03-27 23:51:36,992 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-03-27 23:51:37,707 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-03-27 23:54:01,888 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-27 23:54:01,889 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-27 23:54:01,890 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 23:54:01,891 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 23:54:01,891 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=8ca04070-eaac-42ef-98bc-b9722fd1a387
+- device_id=android-19c11c9b12e66074
+2020-03-27 23:54:01,891 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 23:54:03,272 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 23:54:04,365 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 23:54:04,370 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchuliss'!
+2020-03-27 23:54:04,372 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:54:24,640 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [400]>
+2020-03-27 23:54:24,641 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "Uploaded image isn't in the right format", "status": "fail"}
+2020-03-27 23:54:24,641 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:54:24,642 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: Uploaded image isn't in the right format
+2020-03-27 23:54:24,642 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: {}
+2020-03-27 23:54:40,787 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [400]>
+2020-03-27 23:54:40,787 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "Uploaded image isn't in the right format", "status": "fail"}
+2020-03-27 23:54:40,788 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:54:40,788 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: Uploaded image isn't in the right format
+2020-03-27 23:54:40,789 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: {}
+2020-03-27 23:54:56,481 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [400]>
+2020-03-27 23:54:56,481 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "Uploaded image isn't in the right format", "status": "fail"}
+2020-03-27 23:54:56,482 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:54:56,482 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: Uploaded image isn't in the right format
+2020-03-27 23:54:56,483 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: {}
+2020-03-27 23:55:01,887 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-27 23:55:01,888 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-27 23:55:01,889 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-27 23:55:01,890 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-27 23:55:01,890 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=8ca04070-eaac-42ef-98bc-b9722fd1a387
+- device_id=android-19c11c9b12e66074
+2020-03-27 23:55:01,891 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-27 23:55:03,368 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-27 23:55:04,110 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-27 23:55:04,116 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchuliss'!
+2020-03-27 23:55:04,117 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:55:12,111 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [400]>
+2020-03-27 23:55:12,112 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "Uploaded image isn't in the right format", "status": "fail"}
+2020-03-27 23:55:12,112 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:55:12,113 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: Uploaded image isn't in the right format
+2020-03-27 23:55:12,113 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: {}
+2020-03-27 23:55:24,924 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [400]>
+2020-03-27 23:55:24,925 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "Uploaded image isn't in the right format", "status": "fail"}
+2020-03-27 23:55:24,925 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-27 23:55:24,926 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: Uploaded image isn't in the right format
+2020-03-27 23:55:24,926 - instabot version: 0.115.0 (api) - INFO - Instagram's error message: {}
+2020-03-27 23:55:26,742 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:55:26,743 - instabot version: 0.115.0 (bot) - INFO - Total requests: 167
+2020-03-27 23:55:26,744 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:55:26,748 - instabot version: 0.115.0 (bot) - INFO - Total requests: 170
+2020-03-27 23:55:26,751 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nur_chulis.checkpoint
+2020-03-27 23:55:26,752 - instabot version: 0.115.0 (bot) - INFO - Total requests: 41
+2020-03-27 23:55:26,756 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:55:26,759 - instabot version: 0.115.0 (bot) - INFO - Total requests: 168
+2020-03-27 23:55:26,764 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-27 23:55:26,765 - instabot version: 0.115.0 (bot) - INFO - Total requests: 168

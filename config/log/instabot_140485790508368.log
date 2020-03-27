@@ -1,0 +1,25 @@
+2020-03-18 13:15:53,316 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-18 13:15:53,316 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-18 13:15:53,317 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-18 13:15:53,318 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-18 13:15:53,318 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/menabungtanah_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=a30092fa-e99d-46c6-b2c6-a80dfd9fe9e9
+- uuid=8aacbd94-8261-42c3-ae0d-d5476e870db9
+- client_session_id=dd54da24-561a-4af9-a615-72915b144618
+- device_id=android-d13a49bfddbe7ce7
+2020-03-18 13:15:53,319 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-18 13:15:54,750 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-18 13:15:56,775 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-18 13:15:56,778 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'menabungtanah'!
+2020-03-18 13:15:56,778 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/menabungtanah.checkpoint
+2020-03-18 13:15:57,389 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: users/lego/usernameinfo/ returned response: <Response [200]>
+2020-03-18 13:15:58,488 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: users/196743444/info/ returned response: <Response [200]>
+2020-03-18 13:16:37,228 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [400]>
+2020-03-18 13:16:37,228 - instabot version: 0.115.0 (api) - DEBUG - Responsecode indicates error; response content: {"message": "feedback_required", "spam": true, "feedback_title": "Action Blocked", "feedback_message": "Your account has been temporarily blocked from taking this action. Sharing your account with a service that helps you get more likes or followers goes against our Community Guidelines. This block will expire on 2020-03-21. Tell us if you think we made a mistake.", "feedback_url": "repute/report_problem/user_restriction_COMMENT_RESTRICT/", "feedback_appeal_label": "Tell us", "feedback_ignore_label": "OK", "feedback_action": "report_problem", "status": "fail"}
+2020-03-18 13:16:37,228 - instabot version: 0.115.0 (api) - ERROR - Request returns 400 error!
+2020-03-18 13:16:37,228 - instabot version: 0.115.0 (api) - ERROR - ATTENTION!: `feedback_required`Your account has been temporarily blocked from taking this action. Sharing your account with a service that helps you get more likes or followers goes against our Community Guidelines. This block will expire on 2020-03-21. Tell us if you think we made a mistake.
+2020-03-18 13:16:37,696 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-03-18 13:16:37,697 - instabot version: 0.115.0 (bot_photo) - INFO - Photo '02.jpg' is not uploaded.
+2020-03-18 13:16:37,698 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/menabungtanah.checkpoint
+2020-03-18 13:16:37,700 - instabot version: 0.115.0 (bot) - INFO - Total requests: 37

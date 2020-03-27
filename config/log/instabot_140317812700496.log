@@ -1,0 +1,21 @@
+2020-03-18 18:54:24,809 - instabot version: 0.115.0 (bot) - INFO - Instabot version: 0.115.0 Started
+2020-03-18 18:54:24,809 - instabot version: 0.115.0 (bot) - DEBUG - Bot imported from /usr/local/lib/python2.7/dist-packages/instabot/bot/bot.pyc
+2020-03-18 18:54:24,810 - instabot version: 0.115.0 (api_login) - DEBUG - Loading cookies
+2020-03-18 18:54:24,810 - instabot version: 0.115.0 (api_login) - DEBUG - Loading uuids
+2020-03-18 18:54:24,811 - instabot version: 0.115.0 (api_login) - INFO - Recovery from /var/www/html/example.com/public_html/cron/insta/config/nurchuliss_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=d2ae494d-2f06-4681-a48b-9c921cf0c11b
+- uuid=423e6931-be2b-4a9b-9c1b-4d8fe19b14e6
+- client_session_id=85f49757-cb63-4a96-9f35-9e8d3c79fd8f
+- device_id=android-19c11c9b12e66074
+2020-03-18 18:54:24,811 - instabot version: 0.115.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-03-18 18:54:25,903 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-03-18 18:54:26,401 - instabot version: 0.115.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-03-18 18:54:26,403 - instabot version: 0.115.0 (api) - INFO - Logged-in successfully as 'nurchuliss'!
+2020-03-18 18:54:26,403 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-18 18:54:29,737 - instabot version: 0.115.0 (api) - DEBUG - GET to endpoint: feed/tag/kpti1803/?max_id=&rank_token=31810048273_423e6931-be2b-4a9b-9c1b-4d8fe19b14e6&ranked_content=true& returned response: <Response [200]>
+2020-03-18 18:54:29,775 - instabot version: 0.115.0 (bot_filter) - INFO - Received 64 medias.
+2020-03-18 18:54:29,776 - instabot version: 0.115.0 (bot_filter) - INFO - After filtration 0 medias left.
+2020-03-18 18:54:29,776 - instabot version: 0.115.0 (bot_get) - ERROR - Unexpected link
+2020-03-18 18:54:29,777 - instabot version: 0.115.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /var/www/html/example.com/public_html/cron/insta/config/nurchuliss.checkpoint
+2020-03-18 18:54:29,778 - instabot version: 0.115.0 (bot) - INFO - Total requests: 92
