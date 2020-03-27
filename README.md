@@ -2,7 +2,7 @@
 This Instagram Auto Posting Manager Frok with https://instagrambot.github.io/docs/en/
 
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![N|Solid](https://raw.githubusercontent.com/nurchulis/instagram_bot_autoPosting/master/Cover.png)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -19,7 +19,7 @@ InstaMultiPost is a Program with php and modifed instabot can posting auto rotat
 
 ##DEMO
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)]
+![N|Solid](https://raw.githubusercontent.com/nurchulis/instagram_bot_autoPosting/master/1.png)
 
 ### Tech
 
