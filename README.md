@@ -17,7 +17,7 @@ InstaMultiPost is a Program with php and modifed instabot can posting auto rotat
   - Manage Posting (Caption, Photo) Random or shame Posting
   - Manage Account User 
 
-##DEMO
+### DEMO
 
 ![N|Solid](https://raw.githubusercontent.com/nurchulis/instagram_bot_autoPosting/master/1.png)
 
