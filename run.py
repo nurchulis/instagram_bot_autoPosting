@@ -223,6 +223,8 @@ def cron_job_now():
             	return ({'success':'true','data':dataCount})
             else:
                 runstop()
+
+                insert_log_job_selesai()
                 return {'success':'false', 'description':'Semua Joblist Telah Selesai'}
 
             details = request.json
@@ -251,8 +253,10 @@ def insert_log_job(id_account,kategori):
 	cursor.close()
 	return ({"status":"success"})
 
-def insert_log_job_selesai(id_account,kategori):
+def insert_log_job_selesai():
     cursor = mysql.connection.cursor()
+    id_account = '1'
+    kategori = 'now'
     status = 'Semua Data Telah Terposting'
     created_at = datetime.datetime.now()
     result = cursor.execute("INSERT INTO log_job(id_account, status, kategori, created_at) VALUES (%s, %s, %s, %s)", (id_account, status, kategori, created_at))
